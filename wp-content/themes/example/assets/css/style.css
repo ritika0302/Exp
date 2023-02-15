@@ -1,0 +1,74 @@
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/* nex form */
+#nex-forms .form_field .input_container .btn.align_center {
+    padding: 10px 30px !important;
+    width : auto;
+}
+    #nex-forms .submit-button button.btn {
+    width: auto !important;
+    padding: 10px 30px !important;
+    }
+
+    #nex-forms input.form-control, #nex-forms input[type=text].form-control, #nex-forms select.form-control, #nex-forms textarea.form-control {
+        background-color: #fff;
+        background-image: none;
+        border-radius: 3px;
+        border-bottom: 1px solid #7A1C68 !important;
+        color: #777;
+        display: block;
+        line-height: 1.42857;
+        padding: 6px 12px;
+        width: 100%!important;
+    }
+    
